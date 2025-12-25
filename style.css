@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  background: #eaf5ef;
+  margin: 0;
+}
+
+.header {
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.reward-btn {
+  background: white;
+  color: #2e7d32;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.nav span {
+  font-size: 22px;
+}
+
+.active {
+  color: #2e7d32;
+}
